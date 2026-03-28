@@ -10,8 +10,9 @@ const handleClick = () => {
     <div id="main">
         <button id='click' onClick={handleClick}>
           {isVisible ?  'Hide Paragraph' : 'Show Paragraph' }
-          {isVisible && <p id='para'>"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy".</p>}
+          
         </button>
+        {isVisible && <p id='para'>"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy".</p>}
     </div>
   )
 }

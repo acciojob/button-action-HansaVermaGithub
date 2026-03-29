@@ -12,7 +12,7 @@ function ToggleParagraph(){
         <button id="click"  onClick={handleClick}>
           {isVisible ?  'Hide Paragraph' : 'Show Paragraph' }
         </button>
-        {isVisible && (<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy.</p>)}
+        {isVisible && <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
     </div>
   )
 }

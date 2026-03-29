@@ -8,9 +8,9 @@ const App = (props) => {
   return (
     <div className="App" id="main">
       
-      <ToggleParagraph />
+      <ToggleParagraph isVisible="true"/>
     </div>
   );
 }
 
-export default App
+export default App;
